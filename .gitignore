@@ -1,0 +1,15 @@
+/*
+
+!/app/
+!/public/
+
+!/package.json
+!/package-lock.json
+
+!/eslint.config.*
+!/next.config.*
+!/postcss.config.*
+!/tsconfig.json
+
+!/README.md
+!/.gitignore
