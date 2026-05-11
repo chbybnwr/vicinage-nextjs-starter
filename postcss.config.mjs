@@ -1,4 +1,4 @@
-import babelConfig from "./babel.config";
+import babelConfig from "./babel.config.js";
 
 const config = {
   plugins: {
