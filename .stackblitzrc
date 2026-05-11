@@ -1,0 +1,6 @@
+{
+  "startCommand": "npm run dev -- --webpack",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
