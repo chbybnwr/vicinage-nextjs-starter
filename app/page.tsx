@@ -7,7 +7,8 @@ export default function Home() {
     <div
       {...apply({
         alignItems: "center",
-        backgroundColor: "black",
+        backgroundColor: "light-dark(white, black)",
+        colorScheme: "light dark",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
