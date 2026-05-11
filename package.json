@@ -14,7 +14,7 @@
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "solarwindcss": "^0.29.3",
+    "solarwindcss": "^0.29.4",
     "vicinage": "~0.5.2"
   },
   "devDependencies": {
