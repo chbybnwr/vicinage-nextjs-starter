@@ -14,5 +14,7 @@
 !/postcss.config.*
 !/tsconfig.json
 
+!/prettier.config.*
+
 !/README.md
 !/.gitignore
