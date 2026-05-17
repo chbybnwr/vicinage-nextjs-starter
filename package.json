@@ -15,7 +15,7 @@
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "solarwindcss": "^0.31.6",
+    "solarwindcss": "^0.32.6",
     "vicinage": "~0.5.2"
   },
   "overrides": {
