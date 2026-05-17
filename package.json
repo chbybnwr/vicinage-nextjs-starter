@@ -17,6 +17,9 @@
     "solarwindcss": "^0.29.4",
     "vicinage": "~0.5.2"
   },
+  "overrides": {
+    "postcss": "^8.5.14"
+  },
   "devDependencies": {
     "@stylexjs/babel-plugin": "~0.18.3",
     "@stylexjs/postcss-plugin": "~0.18.3",
