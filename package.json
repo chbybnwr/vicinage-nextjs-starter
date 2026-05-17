@@ -14,7 +14,7 @@
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "solarwindcss": "^0.29.4",
+    "solarwindcss": "^0.31.6",
     "vicinage": "~0.5.2"
   },
   "overrides": {
@@ -23,16 +23,16 @@
   "devDependencies": {
     "@stylexjs/babel-plugin": "~0.18.3",
     "@stylexjs/postcss-plugin": "~0.18.3",
-    "@types/node": "^20",
+    "@types/node": "^25.8.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vicinage/unplugin": "~0.14.19",
+    "@vicinage/unplugin": "^0.15.36",
     "autoprefixer": "^10.5.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.8.3",
     "tailwindcss": "^4.3.0",
-    "typescript": "^5"
+    "typescript": "^6.0.3"
   }
 }
