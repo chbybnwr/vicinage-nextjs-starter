@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@stylexjs/babel-plugin": "~0.18.3",
+    "@stylexjs/eslint-plugin": "^0.18.3",
     "@stylexjs/postcss-plugin": "~0.18.3",
     "@types/node": "^25.8.0",
     "@types/react": "^19",
