@@ -16,6 +16,7 @@ const config = {
         plugins: babelConfig.plugins,
       },
       useCSSLayers: {
+        before: ['reset', 'theme'],
         prefix: 'stylex',
       },
     },
