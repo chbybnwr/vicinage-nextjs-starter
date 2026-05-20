@@ -31,7 +31,7 @@ export const Start = function () {
           Get started
         </h1>
         <p>
-          Open <code>src/App.tsx</code>
+          Open <code>app/page.tsx</code>
         </p>{' '}
       </div>
     </section>
