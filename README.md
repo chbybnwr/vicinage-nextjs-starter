@@ -1,5 +1,7 @@
 [Vicinage](https://github.com/chbybnwr/vicinage) on Next.js
 
+[Open in Codespaces](https://codespaces.new/chbybnwr/vicinage-nextjs-starter)
+
 ## Getting Started
 
 First, run the development server:
