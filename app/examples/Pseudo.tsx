@@ -3,7 +3,7 @@ import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
 import { apply } from 'vicinage'
 
-export const Pseudo = function () {
+export function Pseudo() {
   return (
     <>
       <div

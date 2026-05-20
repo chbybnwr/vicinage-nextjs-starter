@@ -1,7 +1,7 @@
 import { color } from 'solarwindcss/color.stylex'
 import { apply } from 'vicinage'
 
-export const Start = function () {
+export function Start() {
   return (
     <section
       {...apply({

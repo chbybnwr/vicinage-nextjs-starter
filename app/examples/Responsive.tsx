@@ -7,7 +7,7 @@ import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
 import { apply, sheet } from 'vicinage'
 
-export const Responsive = function () {
+export function Responsive() {
   const [isHorizontal, setIsHorizontal] = useState(true)
 
   return (
