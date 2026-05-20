@@ -1,7 +1,7 @@
+import { apply } from 'vicinage'
 import { transition } from 'solarwindcss'
 import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
-import { apply } from 'vicinage'
 
 export function Pseudo() {
   return (
