@@ -6,7 +6,7 @@ import { spacing } from 'solarwindcss/spacing.stylex'
 import { transition } from 'solarwindcss'
 import { useState } from 'react'
 
-export const Logical = function () {
+export function Logical() {
   const [isRound, setIsRound] = useState(false)
 
   return (

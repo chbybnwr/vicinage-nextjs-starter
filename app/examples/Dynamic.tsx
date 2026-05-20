@@ -6,7 +6,7 @@ import { spacing } from 'solarwindcss/spacing.stylex'
 import { transition } from 'solarwindcss'
 import { useEffect, useState } from 'react'
 
-export const Dynamic = function () {
+export function Dynamic() {
   const [percentage, setPercentage] = useState(0)
 
   useEffect(() => {
