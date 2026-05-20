@@ -8,6 +8,9 @@
       ]
     },
     "vscode": {
+      "settings": {
+        "workbench.secondarySideBar.defaultVisibility": "hidden"
+      },
       "extensions": [
         "typescriptteam.native-preview",
         "dbaeumer.vscode-eslint",
