@@ -1,0 +1,25 @@
+{
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "src/page.tsx",
+        "README.md"
+        //
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "typescriptteam.native-preview",
+        "dbaeumer.vscode-eslint",
+        "zokugun.explicit-folding"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
