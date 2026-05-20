@@ -1,7 +1,7 @@
 {
   "postCreateCommand": "npm install",
   "postAttachCommand": {
-    "server": "npm start"
+    "server": "npm run dev"
   },
   "portsAttributes": {
     "3000": {
