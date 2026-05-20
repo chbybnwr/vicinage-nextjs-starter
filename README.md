@@ -1,6 +1,6 @@
 # Vicinage on Next.js
 
-This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) working on Next.js with some ESLint rules.
+This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) working on Next.js.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/chbybnwr/vicinage-nextjs-starter)
 
