@@ -31,15 +31,14 @@ export function Responsive() {
           },
         )}
       >
-        <div
+        <div // traffic light
           {...apply({
-            columnGap: spacing[4],
+            gap: spacing[4],
             display: 'grid',
             gridTemplateColumns: {
               default: 'minmax(0, 96px)',
               '@container (width >= 360px)': 'repeat(3, minmax(0, 96px))',
             },
-            rowGap: spacing[4],
           })}
         >
           <Light style={sheet({ backgroundColor: color.red500 })} />

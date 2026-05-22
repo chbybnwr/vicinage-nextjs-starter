@@ -10,6 +10,7 @@ export function Link({
       {...props}
       {...apply({
         borderRadius: '6px',
+        gap: '8px',
         paddingBlock: '6px',
         paddingInline: '12px',
         textDecoration: 'none',
@@ -25,14 +26,12 @@ export function Link({
           '@media (width >= 1024px)': 'initial',
         },
         color: 'var(--text-h)',
-        columnGap: '8px',
         display: 'flex',
         fontSize: '16px',
         justifyContent: {
           default: 'center',
           '@media (width >= 1024px)': 'initial',
         },
-        rowGap: '8px',
         width: {
           default: '100%',
           '@media (width >= 1024px)': 'initial',
