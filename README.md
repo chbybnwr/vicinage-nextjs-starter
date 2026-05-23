@@ -1,8 +1,6 @@
-# Vicinage on Next.js
+# Vicinage on Next.js &middot; [![Open in StackBlitz](https://img.shields.io/badge/codespaces-1f2328?logo=github&style=for-the-badge)](https://codespaces.new/chbybnwr/vicinage-nextjs-starter) [![Open in StackBlitz](https://img.shields.io/badge/stackblitz-1689f8?logo=stackblitz&style=for-the-badge)](https://stackblitz.com/~/github/chbybnwr/vicinage-nextjs-starter) [![Open in CodeSandbox](https://img.shields.io/badge/codesandbox-e4ff80?logo=codesandbox&style=for-the-badge&logoColor=191919)](https://codesandbox.io/s/github/chbybnwr/vicinage-nextjs-starter)
 
 This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) working on Next.js.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/chbybnwr/vicinage-nextjs-starter)
 
 ## Getting Started
 
