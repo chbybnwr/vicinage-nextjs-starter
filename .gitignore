@@ -10,6 +10,7 @@
 !/package.json
 !/package-lock.json
 
+!/.browserslistrc
 !/babel.config.*
 !/eslint.config.*
 !/next.config.*
