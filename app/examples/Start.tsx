@@ -5,21 +5,7 @@ export function Start() {
   return (
     <section
       {...apply({
-        padding: {
-          default: '32px 20px 24px',
-          '@media (width >= 1024px)': 'initial',
-        },
-        gap: {
-          default: '18px',
-          '@media (width >= 1024px)': '25px',
-        },
-        placeContent: 'center',
-        placeItems: 'center',
-        display: 'flex',
-        flexDirection: {
-          default: 'column',
-          '@media (width >= 1024px)': 'row',
-        },
+        gap: '18px',
       })}
     >
       <div>
@@ -32,7 +18,7 @@ export function Start() {
         </h1>
         <p>
           Open <code>app/page.tsx</code>
-        </p>{' '}
+        </p>
       </div>
     </section>
   )
