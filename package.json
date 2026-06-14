@@ -13,7 +13,7 @@
     "next": "16.2.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "solarwindcss": "^0.35.7",
+    "solarwindcss": "~0.35.7",
     "vicinage": "~0.5.2"
   },
   "overrides": {
@@ -21,13 +21,13 @@
   },
   "devDependencies": {
     "@stylexjs/babel-plugin": "~0.18.3",
-    "@stylexjs/eslint-plugin": "^0.18.3",
+    "@stylexjs/eslint-plugin": "~0.18.3",
     "@stylexjs/postcss-plugin": "~0.18.3",
     "@types/node": "^25.8.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vicinage/eslint-plugin": "^0.6.14",
-    "@vicinage/unplugin": "^0.15.36",
+    "@vicinage/eslint-plugin": "~0.6.14",
+    "@vicinage/unplugin": "~0.15.36",
     "autoprefixer": "^10.5.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
