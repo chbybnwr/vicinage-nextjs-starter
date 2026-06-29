@@ -1,6 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { apply, sheet } from 'vicinage'
 import { Link } from './components/Link'
 import { LinkIcon } from './components/LinkIcon'
 import { LinkItem } from './components/LinkItem'
@@ -22,17 +21,17 @@ export default function RootLayout({
       <body>
         <div id="root">
           <div
-            {...apply({
+            styleDeck={{
               display: 'flex',
               flexDirection: 'column',
               flexGrow: 1,
-            })}
+            }}
           >
             {children}
           </div>
           <Ticks />
           <section
-            {...apply({
+            styleDeck={{
               display: 'flex',
               flexDirection: {
                 default: 'column',
@@ -45,10 +44,10 @@ export default function RootLayout({
               borderTopColor: 'var(--border)',
               borderTopStyle: 'solid',
               borderTopWidth: '1px',
-            })}
+            }}
           >
             <NextStep
-              style={sheet({
+              styleDeck={{
                 borderRightWidth: {
                   default: 'none',
                   '@media (width >= 1024px)': '1px',
@@ -73,7 +72,7 @@ export default function RootLayout({
                   default: 'var(--border)',
                   '@media (width >= 1024px)': 'none',
                 },
-              })}
+              }}
             >
               <h2>Documentation</h2>
               <p>Your questions, answered</p>

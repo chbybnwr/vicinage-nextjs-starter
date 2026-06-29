@@ -1,16 +1,15 @@
-import { apply } from 'vicinage'
-import type { StyleXStyles } from '@stylexjs/stylex'
+import type { StyleDeck } from 'vicinage'
 import type { PropsWithChildren } from 'react'
 
 export function NextStep({
-  style,
+  styleDeck,
   children,
 }: PropsWithChildren<{
-  style?: StyleXStyles
+  styleDeck?: StyleDeck
 }>) {
   return (
     <div
-      {...apply(
+      styleDeck={[
         {
           paddingBlock: '24px',
           paddingInline: {
@@ -21,8 +20,8 @@ export function NextStep({
           flexGrow: '1',
           flexShrink: '1',
         },
-        style,
-      )}
+        styleDeck,
+      ]}
     >
       {children}
     </div>

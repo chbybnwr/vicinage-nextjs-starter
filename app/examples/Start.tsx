@@ -1,18 +1,17 @@
-import { apply } from 'vicinage'
 import { color } from 'solarwindcss/color.stylex'
 
 export function Start() {
   return (
     <section
-      {...apply({
+      styleDeck={{
         gap: '18px',
-      })}
+      }}
     >
       <div>
         <h1
-          {...apply({
+          styleDeck={{
             color: color.blue500,
-          })}
+          }}
         >
           Get started
         </h1>

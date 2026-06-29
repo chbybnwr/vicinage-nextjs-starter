@@ -1,11 +1,10 @@
 'use client'
 
-import type { StyleXStyles } from '@stylexjs/stylex'
 import { useState } from 'react'
 import { transition } from 'solarwindcss'
 import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
-import { apply, sheet } from 'vicinage'
+import type { StyleDeck } from 'vicinage'
 
 export function Responsive() {
   const [isHorizontal, setIsHorizontal] = useState(true)
@@ -14,7 +13,7 @@ export function Responsive() {
     <>
       <div
         onClick={() => setIsHorizontal(!isHorizontal)}
-        {...apply(
+        styleDeck={[
           {
             paddingBlock: spacing[4],
             containerType: 'inline-size',
@@ -29,21 +28,21 @@ export function Responsive() {
           {
             transitionDuration: '0.5s',
           },
-        )}
+        ]}
       >
         <div // traffic light
-          {...apply({
+          styleDeck={{
             gap: spacing[4],
             display: 'grid',
             gridTemplateColumns: {
               default: 'minmax(0, 96px)',
               '@container (width >= 360px)': 'repeat(3, minmax(0, 96px))',
             },
-          })}
+          }}
         >
-          <Light style={sheet({ backgroundColor: color.red500 })} />
-          <Light style={sheet({ backgroundColor: color.yellow500 })} />
-          <Light style={sheet({ backgroundColor: color.green500 })} />
+          <Light styleDeck={{ backgroundColor: color.red500 }} />
+          <Light styleDeck={{ backgroundColor: color.yellow500 }} />
+          <Light styleDeck={{ backgroundColor: color.green500 }} />
         </div>
       </div>
       <div>click it</div>
@@ -52,22 +51,22 @@ export function Responsive() {
 }
 
 const Light = function ({
-  style,
+  styleDeck,
 }: {
-  style?: StyleXStyles<{
+  styleDeck?: StyleDeck<{
     backgroundColor: string
   }>
 }) {
   return (
     <div
-      {...apply(
+      styleDeck={[
         {
           borderRadius: '100%',
           aspectRatio: 1,
           backgroundColor: 'white',
         },
-        style,
-      )}
+        styleDeck,
+      ]}
     ></div>
   )
 }

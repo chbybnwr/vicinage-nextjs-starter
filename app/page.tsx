@@ -2,7 +2,6 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { apply } from 'vicinage'
 import { Start } from './examples/Start'
 import { Hello } from './examples/Hello'
 import { Pseudo } from './examples/Pseudo'
@@ -29,32 +28,32 @@ export default function Home() {
   return (
     <>
       <div
-        {...apply({
+        styleDeck={{
           gap: spacing[8],
           alignItems: 'center',
           display: 'flex',
           flexDirection: 'column',
           flexGrow: 1,
           justifyContent: 'center',
-        })}
+        }}
       >
         <Example />
       </div>
       <div
-        {...apply({
+        styleDeck={{
           paddingBlock: spacing[2],
           display: 'flex',
           justifyContent: 'space-around',
-        })}
+        }}
       >
         {Object.keys(examples).map((key) => (
           <button
             key={key}
             onClick={() => setSelectedExample(key)}
-            {...apply({
+            styleDeck={{
               textDecoration: selectedExample === key && 'underline',
               color: selectedExample === key && color.blue500,
-            })}
+            }}
           >
             {key}
           </button>

@@ -1,6 +1,5 @@
 'use client'
 
-import { apply } from 'vicinage'
 import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
 import { transition } from 'solarwindcss'
@@ -22,7 +21,7 @@ export function Dynamic() {
         onClick={() => {
           setPercentage(percentage + 10)
         }}
-        {...apply(
+        styleDeck={[
           {
             '--initial-size': spacing[32],
             borderRadius: 'var(--initial-size)',
@@ -36,7 +35,7 @@ export function Dynamic() {
           },
           transition.all,
           //
-        )}
+        ]}
       ></button>
       <div>click it</div>
     </>

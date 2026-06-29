@@ -1,6 +1,5 @@
 'use client'
 
-import { apply } from 'vicinage'
 import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
 import { transition } from 'solarwindcss'
@@ -12,7 +11,7 @@ export function Logical() {
   return (
     <>
       <button
-        {...apply(
+        styleDeck={[
           {
             borderRadius: isRound && '50%',
             alignItems: 'center',
@@ -24,7 +23,7 @@ export function Logical() {
           },
           transition.all,
           //
-        )}
+        ]}
         onClick={() => setIsRound(!isRound)}
       ></button>
       <div>click it</div>

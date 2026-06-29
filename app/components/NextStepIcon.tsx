@@ -1,4 +1,3 @@
-import { apply } from 'vicinage'
 import type { PropsWithChildren } from 'react'
 
 export function NextStepIcon({ children }: PropsWithChildren) {
@@ -6,11 +5,11 @@ export function NextStepIcon({ children }: PropsWithChildren) {
     <svg
       role="presentation"
       aria-hidden="true"
-      {...apply({
+      styleDeck={{
         height: '22px',
         marginBottom: '16px',
         width: '22px',
-      })}
+      }}
     >
       {children}
     </svg>

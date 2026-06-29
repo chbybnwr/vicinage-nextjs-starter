@@ -1,10 +1,9 @@
-import { apply } from 'vicinage'
 import type { PropsWithChildren } from 'react'
 
 export function LinkList({ children }: PropsWithChildren) {
   return (
     <ul
-      {...apply({
+      styleDeck={{
         padding: 0,
         gap: '8px',
         listStyle: 'none',
@@ -21,7 +20,7 @@ export function LinkList({ children }: PropsWithChildren) {
           default: '20px',
           '@media (width >= 1024px)': '32px',
         },
-      })}
+      }}
     >
       {children}
     </ul>

@@ -1,12 +1,12 @@
-import { apply } from 'vicinage'
 import { color } from 'solarwindcss/color.stylex'
 
 export function Hello() {
   return (
     <div
-      {...apply({
+      className="foo"
+      styleDeck={{
         color: color.green500,
-      })}
+      }}
     >
       hello, world
     </div>

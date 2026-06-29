@@ -1,4 +1,3 @@
-import { apply } from 'vicinage'
 import { transition } from 'solarwindcss'
 import { color } from 'solarwindcss/color.stylex'
 import { spacing } from 'solarwindcss/spacing.stylex'
@@ -7,7 +6,7 @@ export function Pseudo() {
   return (
     <>
       <div
-        {...apply(
+        styleDeck={[
           {
             borderRadius: {
               default: '50%',
@@ -19,7 +18,7 @@ export function Pseudo() {
             width: spacing[32],
           },
           transition.all,
-        )}
+        ]}
       ></div>
       <div>click it or hover over it</div>
     </>

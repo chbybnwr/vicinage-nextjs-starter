@@ -1,4 +1,3 @@
-import { apply } from 'vicinage'
 import type { AnchorHTMLAttributes, PropsWithChildren } from 'react'
 
 export function Link({
@@ -8,7 +7,7 @@ export function Link({
   return (
     <a
       {...props}
-      {...apply({
+      styleDeck={{
         borderRadius: '6px',
         gap: '8px',
         paddingBlock: '6px',
@@ -36,7 +35,7 @@ export function Link({
           default: '100%',
           '@media (width >= 1024px)': 'initial',
         },
-      })}
+      }}
     >
       {children}
     </a>

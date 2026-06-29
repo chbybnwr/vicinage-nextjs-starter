@@ -1,9 +1,7 @@
-import { apply } from 'vicinage'
-
 export function Ticks() {
   return (
     <div
-      {...apply({
+      styleDeck={{
         position: 'relative',
         width: '100%',
         '::after': {
@@ -26,7 +24,7 @@ export function Ticks() {
           left: 0,
           top: '-4.5px',
         },
-      })}
+      }}
     ></div>
   )
 }
